@@ -1,0 +1,109 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "I am on login page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background"
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13375683001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "User should login successful with valid credentials",
+        "description": "",
+        "id": "login-page-test;user-should-login-successful-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1597206600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 641322599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter email id in email field",
+            "match": {
+              "location": "LoginPageSteps.iEnterEmailIdInEmailField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 430861200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter password in password field",
+            "match": {
+              "location": "LoginPageSteps.iEnterPasswordInPasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 381181700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginPageSteps.iClickOnLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142684200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see text Products",
+            "match": {
+              "location": "LoginPageSteps.iShouldSeeTextProducts()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@sanity"
+          },
+          {
+            "line": 6,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Test",
+    "description": "As user I want to login into nop commerce website",
+    "id": "login-page-test",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
